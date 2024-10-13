@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+*.log
+*.csv
+*.jpg
+*.png
+*.ipynb
+venv/
+Ollama_model/
+results/

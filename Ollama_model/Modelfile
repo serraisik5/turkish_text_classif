@@ -1,0 +1,15 @@
+FROM llama3.1 
+
+# set the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER temperature 1
+
+# set the system message
+SYSTEM """
+Cümle hangi kategoriye ait? Kategoriler: 'işletme', 'seyahat', 'insanlar', 'spor', 'devlet', 'havacılık',
+       'müzik', 'görsel_sanat', 'film', 'zaman', 'mimarlık', 'ödül',
+       'organizasyon', 'TV', 'meteoroloji', 'biyoloji', 'konum', 'kitap',
+       'coğrafya', 'tiyatro', 'medya_ortak', 'opera', 'kurgusal_evren',
+       'oyunlar', 'din', 'astronomi', 'futbol', 'yiyecek', 'askeri',
+       'kanun', 'eğitim'. 
+Tek kelime cevap ver
+"""

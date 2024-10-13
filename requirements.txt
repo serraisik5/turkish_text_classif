@@ -1,0 +1,15 @@
+pandas
+numpy
+seaborn
+scikit-learn
+trtokenizer
+nltk
+scipy
+deep-translator
+dataset
+datasets
+transformers
+torch
+transformers[torch]
+accelerate>=0.26.0
+
